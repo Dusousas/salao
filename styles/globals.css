@@ -54,7 +54,7 @@ h1{
 }
 
 .bgNew{
-  background-image: url('/New.jpg');
+  background-image: url('/new.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
   background-attachment: fixed;

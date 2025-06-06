@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <>
             <section className='bgMain relative top-0'>
-                <div className='maxW w-full h-full flex flex-col justify-center items-center'>
+                <div className='maxW relative w-full h-full flex flex-col justify-center items-center'>
 
                     <p className='uppercase text-[10px] font-semibold tracking-wider text-center lg:text-sm'>Realce sua beleza com quem entende do assunto</p>
                     <h1 className='uppercase text-center text-4xl mt-4 lg:text-7xl lg:mt-6'>Sua beleza merece o melhor cuidado</h1>
