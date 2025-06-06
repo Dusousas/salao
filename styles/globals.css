@@ -45,7 +45,6 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 .bgAbout{
@@ -58,7 +57,6 @@ h1{
   background-image: url('/new.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
-  background-attachment: fixed;
   background-position: top;
 }
 
