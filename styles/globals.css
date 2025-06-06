@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-Yellow: #E1A845;
+  --color-Gray: #898989;
+  --font-Lustria: "Lustria", serif;
+  --font-Raleway: "Raleway", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Raleway", sans-serif;
+}
+
+body,html{
+  scroll-behavior: smooth;
+}
+
+.maxW{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+h1{
+  font-family: "Lustria", serif;
+}
+
+.bgMain{
+  background-image: url('/slide-1main.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgAbout{
+  background-image: url('/about-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.bgNew{
+  background-image: url('/New.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.bgService1{
+  background-image: url('/bg-service1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  top: 15px !important;
+  background-color: #fff !important;
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 6px !important;
+  transition: background-color 0.3s !important;
+  border-radius: 9999px !important;
+  z-index: 999 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #E1A845 !important;
+  width: 24px !important;
+}
+
+.custom{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
