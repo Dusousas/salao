@@ -7,11 +7,11 @@ export default function Main() {
             <section className='bgMain relative top-0'>
                 <div className='maxW relative w-full h-full flex flex-col justify-center items-center'>
 
-                    <p className='uppercase text-[10px] font-semibold tracking-wider text-center lg:text-sm'>Realce sua beleza com quem entende do assunto</p>
-                    <h1 className='uppercase text-center text-4xl mt-4 lg:text-7xl lg:mt-6'>Sua beleza merece o melhor cuidado</h1>
-                    <p className='text-center text-sm mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur similique suscipit quaerat dolorum velit facere fugiat aliquam ex corrupti!</p>
+                    <p className='uppercase text-[10px] font-semibold tracking-wider text-center  text-white lg:text-sm'>Realce sua beleza com quem entende do assunto</p>
+                    <h1 className='uppercase text-center text-4xl text-white mt-4 lg:text-7xl lg:mt-6'>Sua beleza merece o melhor cuidado</h1>
+                    <p className='text-center text-sm mt-4 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur similique suscipit quaerat dolorum velit facere fugiat aliquam ex corrupti!</p>
                     <div className='flex mt-4 lg:mt-6'>
-                        <a className='bg-Yellow py-4 px-8 uppercase font-semibold tracking-wide' href="">Entre em contato</a>
+                        <a className='bg-Yellow py-4 px-8 uppercase font-semibold tracking-wide text-white' href="">Entre em contato</a>
                     </div>
 
                     <article className='absolute bottom-4 gap-4 flex lg:bottom-4 lg:flex-col lg:right-6'>

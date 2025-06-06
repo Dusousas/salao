@@ -5,7 +5,7 @@ export default function Footer() {
         <>
             <footer className='py-6 bg-[#141414]'>
                 <div className='maxW'>
-                    <p className='text-center'>Todos os direitos reservados</p>
+                    <p className='text-center text-white'>Todos os direitos reservados</p>
                 </div>
             </footer>
         </>

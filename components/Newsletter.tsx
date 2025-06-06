@@ -6,8 +6,8 @@ export default function Newsletter() {
             <section className='py-30 bgNew'>
                 <div className='maxW flex flex-col gap-30 justify-center lg:flex-row'>
                     <article className='lg:w-[40%]'>
-                        <h1 className='uppercase text-3xl text-center lg:text-left'>Newsletter</h1>
-                        <p className='mt-4 text-center lg:text-left'>Sed ut perspiciatis unde omnis iste natus error sit volupt atem accu santium doloremque laudantium, totam remap.</p>
+                        <h1 className='uppercase text-3xl text-center text-white lg:text-left'>Newsletter</h1>
+                        <p className='mt-4 text-center text-white lg:text-left'>Sed ut perspiciatis unde omnis iste natus error sit volupt atem accu santium doloremque laudantium, totam remap.</p>
                         <input className='bg-white outline-none px-4 text-black py-3 w-full mt-6' placeholder='Seu nome*' type="text" />
                         <input className='bg-white outline-none px-4 text-black py-3 w-full mt-4' placeholder='Seu Email*' type="text" />
                         <div className='flex justify-center mt-6 lg:justify-start'>
